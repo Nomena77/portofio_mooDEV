@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #462;
-    background-image: url("/font3.jpg");
+    background-image: url("font3.jpg");
     background-position: center;
     background-clip: content-box;
     background-repeat: no-repeat;
