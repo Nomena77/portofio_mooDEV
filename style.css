@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #462;
+    background-image: url("/font3.jpg");
+    background-position: center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu-container li {
+    margin-left: 25px;
+    background-color: rgb(175, 7, 161);
+    padding: 0.3rem .4rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-menu-container li:hover {
+    background-color: rgb(213, 98, 3);
+}
+
+.nav-menu-container li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.hamburger-menu {
+    display: none;
+}
